@@ -3,7 +3,7 @@
   --bg-soft: #efe9de;
   --paper: #fffdf9;
   --ink: #2d2a26;
-  --muted: #7a746b;
+  --muted: #675f56;
   --green: #3d5a4a;
   --rose: #a4574b;
   --line: #ddd5c6;
@@ -13,7 +13,7 @@
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 72px; }
-body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.9; font-size: 15px; -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans); line-height: 1.9; font-size: 16px; -webkit-text-size-adjust: 100%; }
 img { max-width: 100%; height: auto; display: block; }
 a { color: inherit; }
 h1, h2, h3, p, ul, ol, dl { margin: 0; padding: 0; }
@@ -134,7 +134,7 @@ dialog#lightbox[open] { display: flex; align-items: center; justify-content: cen
 #lb-close { position: absolute; top: 12px; right: 12px; }
 
 @media (min-width: 768px) {
-  body { font-size: 16px; }
+  body { font-size: 17px; }
   .site-header { padding: 14px 40px; }
   .nav-toggle { display: none; }
   nav, nav.open { display: flex; flex-direction: row; position: static; gap: 28px; padding: 0; background: none; border: 0; align-items: center; }
