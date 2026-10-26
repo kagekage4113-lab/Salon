@@ -28,7 +28,7 @@ python3 -m http.server 8000
 
 - `index.html` の `<meta name="robots" content="noindex">` を削除（検索に載せる）
 - 独自ドメイン取得 → リポジトリ直下に `CNAME` ファイル（中身はドメイン名のみ）を置き、Settings → Pages で設定、HTTPS を有効化
-- 仮の文言（`サロン名（仮）`、料金「確認中」）を正式なものに差し替え
+- 仮の文言（`tsumugi（仮名）`、料金「確認中」）を正式なものに差し替え
 
 ## 方針
 
